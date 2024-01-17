@@ -1,0 +1,163 @@
+(base) aditireddy@Aditis-MBP 2 %  /usr/bin/env /Users/aditireddy/anaconda3/bin/python /Users/aditireddy/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/py
+thon/debugpy/adapter/../../debugpy/launcher 65532 -- /Users/aditireddy/Documents/CS484/2/python-code.py 
+array of labels: shape (146,)
+array of feature matrix: shape (146, 7)
+Ne version of features: (146, 21)
+Success: Features are now standardized 
+RSS square root for this fold is: 1304.10
+RSS square root for this fold is: 592.52
+RSS square root for this fold is: 775.24
+RSS square root for this fold is: 1484.71
+RSS square root for this fold is: 963.38
+
+ 5-fold RSS square root average is: 1023.99
+
+Lambda=1: Average Square Root of RSS over all folds: 962.18
+
+
+Lambda=0.1: Average Square Root of RSS over all folds: 960.30
+
+
+Lambda=0.01: Average Square Root of RSS over all folds: 993.39
+
+
+Lambda=0.001: Average Square Root of RSS over all folds: 1019.52
+
+
+Lambda=0.0001: Average Square Root of RSS over all folds: 1023.52
+
+Shape of X [N, F]: torch.Size([64, 784]) torch.float32
+Shape of y: torch.Size([64]) torch.int64
+Epoch 1
+
+loss: 32.124222  [    0/48000]
+loss: 0.901946  [ 6400/48000]
+loss: 0.541726  [12800/48000]
+loss: 0.338126  [19200/48000]
+loss: 0.426629  [25600/48000]
+loss: 0.517160  [32000/48000]
+loss: 0.117916  [38400/48000]
+loss: 0.268820  [44800/48000]
+Test Error: 
+ Accuracy: 93.6%, Avg loss: 0.004293 
+
+Epoch 2
+
+loss: 0.449430  [    0/48000]
+loss: 0.129861  [ 6400/48000]
+loss: 0.291313  [12800/48000]
+loss: 0.078027  [19200/48000]
+loss: 0.193216  [25600/48000]
+loss: 0.119630  [32000/48000]
+loss: 0.086197  [38400/48000]
+loss: 0.147208  [44800/48000]
+Test Error: 
+ Accuracy: 94.5%, Avg loss: 0.003400 
+
+Epoch 3
+
+loss: 0.248648  [    0/48000]
+loss: 0.041725  [ 6400/48000]
+loss: 0.179911  [12800/48000]
+loss: 0.010400  [19200/48000]
+loss: 0.162358  [25600/48000]
+loss: 0.057772  [32000/48000]
+loss: 0.060996  [38400/48000]
+loss: 0.089299  [44800/48000]
+Test Error: 
+ Accuracy: 95.1%, Avg loss: 0.003108 
+
+Epoch 4
+
+loss: 0.142994  [    0/48000]
+loss: 0.025897  [ 6400/48000]
+loss: 0.111737  [12800/48000]
+loss: 0.009983  [19200/48000]
+loss: 0.145889  [25600/48000]
+loss: 0.025524  [32000/48000]
+loss: 0.029371  [38400/48000]
+loss: 0.051965  [44800/48000]
+Test Error: 
+ Accuracy: 95.5%, Avg loss: 0.002938 
+
+Epoch 5
+
+loss: 0.059117  [    0/48000]
+loss: 0.019891  [ 6400/48000]
+loss: 0.059685  [12800/48000]
+loss: 0.014143  [19200/48000]
+loss: 0.111770  [25600/48000]
+loss: 0.023372  [32000/48000]
+loss: 0.017672  [38400/48000]
+loss: 0.032349  [44800/48000]
+Test Error: 
+ Accuracy: 95.7%, Avg loss: 0.002851 
+
+Epoch 6
+
+loss: 0.027844  [    0/48000]
+loss: 0.015176  [ 6400/48000]
+loss: 0.026335  [12800/48000]
+loss: 0.018715  [19200/48000]
+loss: 0.078986  [25600/48000]
+loss: 0.019891  [32000/48000]
+loss: 0.010619  [38400/48000]
+loss: 0.026405  [44800/48000]
+Test Error: 
+ Accuracy: 95.9%, Avg loss: 0.002810 
+
+Epoch 7
+
+loss: 0.017024  [    0/48000]
+loss: 0.010099  [ 6400/48000]
+loss: 0.016693  [12800/48000]
+loss: 0.017023  [19200/48000]
+loss: 0.046897  [25600/48000]
+loss: 0.016726  [32000/48000]
+loss: 0.008172  [38400/48000]
+loss: 0.024320  [44800/48000]
+Test Error: 
+ Accuracy: 96.0%, Avg loss: 0.002791 
+
+Epoch 8
+
+loss: 0.011824  [    0/48000]
+loss: 0.009043  [ 6400/48000]
+loss: 0.012165  [12800/48000]
+loss: 0.013928  [19200/48000]
+loss: 0.020862  [25600/48000]
+loss: 0.011927  [32000/48000]
+loss: 0.007520  [38400/48000]
+loss: 0.021564  [44800/48000]
+Test Error: 
+ Accuracy: 96.1%, Avg loss: 0.002782 
+
+Epoch 9
+
+loss: 0.007160  [    0/48000]
+loss: 0.007542  [ 6400/48000]
+loss: 0.009199  [12800/48000]
+loss: 0.011999  [19200/48000]
+loss: 0.010851  [25600/48000]
+loss: 0.010836  [32000/48000]
+loss: 0.006241  [38400/48000]
+loss: 0.020735  [44800/48000]
+Test Error: 
+ Accuracy: 96.2%, Avg loss: 0.002783 
+
+Epoch 10
+
+loss: 0.005683  [    0/48000]
+loss: 0.006501  [ 6400/48000]
+loss: 0.007043  [12800/48000]
+loss: 0.009762  [19200/48000]
+loss: 0.009033  [25600/48000]
+loss: 0.008523  [32000/48000]
+loss: 0.005304  [38400/48000]
+loss: 0.018289  [44800/48000]
+Test Error: 
+ Accuracy: 96.2%, Avg loss: 0.002788 
+
+Done!
+array of testing feature matrix: shape (10000, 784)
+(base) aditireddy@Aditis-MBP 2 % 
