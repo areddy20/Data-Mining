@@ -1,0 +1,42 @@
+The data that was used in the python files, finalproject.py and comp-guide-ver.py, are too large to
+be published on github, however can be found here: https://www.kaggle.com/competitions/store-sales-time-series-forecasting,
+under the data tab.
+
+This project is called“Store Sales - Time Series Forecasting” which is a data mining challenge from kaggle.com 
+Time series forecasting is a method of using past statistics over certain timeframes to predict the value of those statistics 
+in the future. Some of the prime uses for time series forecasting are in sales, where companies employ individuals to do this 
+type of prediction on their stores, and more specifically, how popular certain items are, in order to predict what future sales 
+may be based on past values. The goal for this challenge is to find accurate predictions for a number of item 
+families over different time frames. Participants are given data such as previous store sales by item family, store location, 
+and much more. The approach chosen starts with taking advantage some machine learning techniques that was knowlege from before 
+and during understanding the challenge. Starting off, the data is organized into informative graphs, in order to visualize what 
+would be worked with. The 3 graph metrics chosen were the total sales by time frame, which includes year, month, day, quarter, 
+and day of the week, sales by product family, and sales by store. After running the python code in finalproject.py, these graphs
+are visually shown. Through these visuals there are associations between the different data we had collected. For example, 
+during the end of the year, the average amount of transactions spikes significantly, and that there is a high correlation between 
+total sales and total transactions. For the spiking of sales towards the end of the year, a cause for those could be that it’s 
+holiday season, and people are buying more food than usual to cook for feasts that they have with their family on christmas, 
+thanksgiving, and other festivities they might have. Another trend that was discovered was the fact that there is a large increase 
+in transactions as you get closer to approaching the weekend, meaning that sales pick up on friday, spike on saturday, and slowly fall 
+off on sunday, resetting to low levels on monday. An hypothesis was made that this is because it's the weekend, and people don’t have 
+work or school, therefore they have the time to go to the grocery store. After doing all of this, 0 values were removed along with the 
+non selling items from the list, which were items that were sold at some stores but not others, so those 0’s were removed if the 
+product was not sold at the store. If the product was sold at that store however, and it didn't sell any units, was kept in. 
+After processing all of this data, something that occurred was having to make sure the formatting was correct all around. 
+This was consistently ran, so every time a different module was used to do a visualization, re-processing the data was mandatory 
+so that it would work with that specific python module. 
+
+For the predictions part of this project, which is in the comp-guide-ver.py file, xgboost was used which required a lot of learning 
+throughout the process. This was what the process included:
+
+- Create model
+- Determine what features are important
+- Try out forecasting on test set
+- get error metrics such as rmse, mae, maps
+- look at best and worst days
+- look at best / worst days
+
+
+
+
+
