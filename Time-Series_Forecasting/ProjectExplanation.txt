@@ -2,7 +2,7 @@ The data that was used in the python files, finalproject.py and comp-guide-ver.p
 be published on github, however can be found here: https://www.kaggle.com/competitions/store-sales-time-series-forecasting,
 under the data tab.
 
-This project is called“Store Sales - Time Series Forecasting” which is a data mining challenge from kaggle.com 
+This project is called “Store Sales - Time Series Forecasting” which is a data mining challenge from kaggle.com 
 Time series forecasting is a method of using past statistics over certain timeframes to predict the value of those statistics 
 in the future. Some of the prime uses for time series forecasting are in sales, where companies employ individuals to do this 
 type of prediction on their stores, and more specifically, how popular certain items are, in order to predict what future sales 
